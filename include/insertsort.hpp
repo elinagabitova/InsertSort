@@ -1,4 +1,5 @@
 #include <iostream>
+#include <insertsort.cpp>
 template <typename Iterator>
 void insertsort(Iterator begin , Iterator end)
 {
