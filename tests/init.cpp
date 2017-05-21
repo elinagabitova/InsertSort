@@ -6,7 +6,7 @@ SCENARIO ("array")
   int a[] = {3, 2, 4, 5, 6};
   int* s=a;
   int* l=a+5;
- insertion_sort(s,l);
+ insertsort(s,l);
  REQUIRE(a[0] == 2);
  REQUIRE(a[1] == 3);
  REQUIRE(a[2] == 4);
